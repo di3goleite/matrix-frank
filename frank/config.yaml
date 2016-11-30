@@ -4,3 +4,8 @@ configVersion: 2
 name: frank
 description: frank
 keywords: frank
+
+services:
+  faceTest:
+    engine: detection
+    type: demographics

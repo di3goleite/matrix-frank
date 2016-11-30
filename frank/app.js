@@ -1,4 +1,6 @@
-// app code goes here
-// matrix.init()....
-//
-// have fun
+matrix.led('blue').render();
+
+matrix.init('demographics').then(function(data) {
+    matrix.led('red').render();
+    console.log('>>>>>>>>>>>>>>>>', data);
+});
